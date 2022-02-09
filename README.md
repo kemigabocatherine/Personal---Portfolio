@@ -26,4 +26,4 @@ Twitter: [@twitterhandle](https://twitter.com/catherinek205)
 
 ## Show your support
 
-Give a :star: or a :thumbs-up: if you like this project!
+Give a :star: or a :+1: if you like this project!
