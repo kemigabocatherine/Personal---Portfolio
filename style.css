@@ -35,7 +35,7 @@ body {
   align-items: center;
   font-family: 'Poppins', sans-serif;
   font-size: 36px;
-  font-weight: 700 bold;
+  font-weight: 700;
   font-style: normal;
   line-height: 52px;
   width: 327px;
@@ -118,4 +118,3 @@ ul {
   padding-left: 20px;
   color: rgb(80, 95, 121);
 }
-
