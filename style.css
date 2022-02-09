@@ -1,0 +1,120 @@
+body {
+  display: flex;
+  width: 375px;
+  height: 718px;
+}
+
+.toolbar {
+  position: absolute;
+  width: 375px;
+  height: 48px;
+  padding: 0 0 70px 0;
+  padding-left: 11px;
+}
+
+.menu {
+  display: inline-flex;
+  text-align: left;
+  padding-left: 200px;
+}
+
+.headline {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 604px;
+  background-image: url("images/headlinebackground.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: 92px;
+  padding: 11px 24px 114px 11px;
+}
+
+.heading {
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 52px;
+  width: 327px;
+  height: 150px;
+  top: 114px;
+  left: 24px;
+  padding-top: 60px;
+  padding-left: 24px;
+  color: rgb(23, 43, 77);
+}
+
+.paragraph {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  width: 327px;
+  height: 146px;
+  padding: 276px 24px 0 0;
+  font-size: 16px;
+  padding-left: 24px;
+  padding-top: 50px;
+  color: rgb(52, 69, 99);
+}
+
+.connect {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding-left: 24px;
+  padding-top: 5px;
+  color: rgb(127, 140, 255);
+  width: 200px;
+  height: 24px;
+}
+
+.contact {
+  margin: 0;
+  padding-left: 24px;
+  padding-top: 4px;
+}
+
+ul {
+  padding-inline-start: 0;
+  display: inline-flex;
+  align-items: baseline;
+  list-style-type: none;
+}
+
+.twitter {
+  width: 19.99px;
+  height: 19.96px;
+  color: rgb(80, 95, 121);
+}
+
+.linkedin {
+  width: 20px;
+  height: 20px;
+  padding-left: 20px;
+  color: rgb(80, 95, 121);
+}
+
+.email {
+  width: 20px;
+  height: 16px;
+  padding-left: 20px;
+  color: rgb(80, 95, 121);
+}
+
+.github {
+  width: 17.99px;
+  height: 20px;
+  padding-left: 20px;
+  color: rgb(80, 95, 121);
+}
+
+.vector {
+  width: 14.17px;
+  height: 20px;
+  padding-left: 20px;
+  color: rgb(80, 95, 121);
+}
