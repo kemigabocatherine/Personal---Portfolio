@@ -334,7 +334,7 @@ a {
 .language {
   padding-left: 16px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 700, bold;
+  font-weight: bold;
   font-size: 20px;
   color: #000;
   display: flex;
@@ -360,7 +360,7 @@ a {
 
 .ellip {
   list-style-type: none;
-  font-weight: 100 bold;
+  font-weight: 100, bold;
 }
 
 .ellipse {
@@ -409,7 +409,7 @@ a {
   display: flex;
   align-items: center;
   font-family: 'Poppins', sans-serif;
-  font-weight: 500 bold;
+  font-weight: bold;
   font-size: 20px;
   width: 237px;
   height: 24px;
