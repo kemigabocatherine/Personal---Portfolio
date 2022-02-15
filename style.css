@@ -602,6 +602,11 @@ button.resume:disabled {
   background: #6070ff;
   border-radius: 50px 0 0 0;
   color: #ebebff;
+  font-family: Poppins, sans-serif;
+  background-image: url("./images/contact-form-shapes-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
 }
 #contact-form .form {
   border: none;
@@ -609,6 +614,7 @@ button.resume:disabled {
 }
 #contact-form .form .heading {
   color: #fff;
+  margin: 20px 0px;
 }
 #contact-form .form .heading ul {
   display: flex;
@@ -622,28 +628,28 @@ button.resume:disabled {
   margin: 7px 9px;
   border-radius: 8px;
   padding: 9px 3px 9px 5px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
 }
 #contact-form .form textarea {
   width: 89%;
   margin: 7px 6px;
   border-radius: 8px;
   padding: 5px 3px 5px 5px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
 }
 
 .submit {
   width: 30%;
   border-radius: 8px;
   padding: 6px 5px 6px 5px;
-  color: #6070FF;
+  color: #6070ff;
   font-size: 17px;
 }
 
 li button {
   display: flex;
   margin-left: 9px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
 }
 
 .message {
