@@ -6,7 +6,7 @@
 .main {
   background-color: #f7f7f9;
   width: 375px;
-  height: 5410px;
+  height: 5810px;
   padding-top: 19px;
   padding-left: 0;
   display: grid;
@@ -42,6 +42,16 @@
   margin-right: 16px;
 }
 
+.project1 {
+  margin-top: 130%;
+}
+
+.project2,
+.project3,
+.project4 {
+  margin-top: 20%;
+}
+
 .project2,
 .project4 {
   width: 327px;
@@ -71,7 +81,7 @@
 .heading1 {
   width: 295px;
   height: 80px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -83,7 +93,7 @@
 .heading2 {
   width: 295px;
   height: 36px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -104,7 +114,7 @@
 }
 
 .canopy {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -117,7 +127,7 @@
 }
 
 .end1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
   width: 90px;
@@ -131,7 +141,7 @@
 }
 
 .end {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
   width: 29px;
@@ -146,7 +156,7 @@
 .p {
   width: 295px;
   height: 76px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -208,7 +218,7 @@
 }
 
 a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 0.03em;
@@ -230,13 +240,15 @@ a {
 }
 
 .aboutself {
+  height: 1263px;
   display: flex;
   background-color: #fff;
   border-top-right-radius: 90px;
+  margin-top: 30%;
 }
 
 .about {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 32px;
   line-height: 52px;
   font-weight: 700;
@@ -250,7 +262,7 @@ a {
 }
 
 .par {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -262,7 +274,7 @@ a {
 }
 
 .connect {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -322,7 +334,7 @@ a {
   border-radius: 7px;
   background-color: #fff;
   color: #396df2;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   padding: 4px;
   letter-spacing: 00.03em;
@@ -333,7 +345,7 @@ a {
 
 .language {
   padding-left: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 20px;
   color: #000;
@@ -408,7 +420,7 @@ a {
 .skills {
   display: flex;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 20px;
   width: 237px;
@@ -491,7 +503,7 @@ hr {
 
 .heading {
   align-items: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 32px;
   font-size: 36px;
   font-weight: 700;
@@ -506,7 +518,7 @@ hr {
 }
 
 .paragraph {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 24px;
   width: 327px;
@@ -518,7 +530,7 @@ hr {
 }
 
 .connect1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -596,4 +608,83 @@ button.pro1:disabled,
 button.resume:disabled {
   border: 1px solid #c1c7d0;
   color: #5e6c84;
+}
+
+#contact-form {
+  background: #6070ff;
+  border-radius: 50px 0 0 0;
+  color: #ebebff;
+  height: 790px;
+  font-family: Poppins, sans-serif;
+  background-image: url("./images/contact-form-shapes-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  margin-top: -50%;
+}
+
+#contact-form .form {
+  border: none;
+  text-align: center;
+}
+
+#contact-form .form .heading {
+  color: #fff;
+  margin: 20px 0;
+}
+
+#contact-form .form .heading ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form .form .heading ul li {
+  width: 100%;
+}
+
+#contact-form .form input {
+  width: 89%;
+  border-radius: 8px;
+  padding: 12px 3px 12px 7px;
+  border: 1px solid #cfd8dc;
+}
+
+input[type=text] {
+  margin-top: 10%;
+}
+
+input[type=email] {
+  margin-top: 4%;
+}
+
+#contact-form .form textarea {
+  width: 89%;
+  margin: 15px 6px;
+  border-radius: 8px;
+  padding: 12px 3px 5px 9px;
+  border: 1px solid #cfd8dc;
+  font-family: Poppins, sans-serif;
+}
+
+.submit {
+  width: 35%;
+  border-radius: 8px;
+  padding: 12px 0 12px 15px;
+  color: #6070ff;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 7px;
+  background-color: #fff;
+}
+
+li button {
+  display: flex;
+  margin-left: 20px;
+  border: 1px solid #cfd8dc;
+}
+
+.message {
+  font-size: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
