@@ -630,8 +630,9 @@ button.resume:disabled {
 
 #contact-form .form .heading {
   color: #fff;
-  margin: 20px 0px;
+  margin: 20px 0;
 }
+
 #contact-form .form .heading ul {
   display: flex;
   flex-direction: column;
@@ -643,7 +644,6 @@ button.resume:disabled {
 
 #contact-form .form input {
   width: 89%;
-  /* margin: 7px 9px; */
   border-radius: 8px;
   padding: 12px 3px 12px 7px;
   border: 1px solid #cfd8dc;
