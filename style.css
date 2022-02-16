@@ -6,7 +6,7 @@
 .main {
   background-color: #f7f7f9;
   width: 375px;
-  height: 5410px;
+  height: 5810px;
   padding-top: 19px;
   padding-left: 0;
   display: grid;
@@ -40,6 +40,16 @@
   align-items: center;
   margin-left: 16px;
   margin-right: 16px;
+}
+
+.project1 {
+  margin-top: 130%;
+}
+
+.project2,
+.project3,
+.project4 {
+  margin-top: 20%;
 }
 
 .project2,
@@ -230,9 +240,11 @@ a {
 }
 
 .aboutself {
+  height: 1263px;
   display: flex;
   background-color: #fff;
   border-top-right-radius: 90px;
+  margin-top: 30%;
 }
 
 .about {
@@ -602,16 +614,20 @@ button.resume:disabled {
   background: #6070ff;
   border-radius: 50px 0 0 0;
   color: #ebebff;
+  height: 790px;
   font-family: Poppins, sans-serif;
   background-image: url("./images/contact-form-shapes-mobile.svg");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
+  margin-top: -50%;
 }
+
 #contact-form .form {
   border: none;
   text-align: center;
 }
+
 #contact-form .form .heading {
   color: #fff;
   margin: 20px 0px;
@@ -620,35 +636,50 @@ button.resume:disabled {
   display: flex;
   flex-direction: column;
 }
+
 #contact-form .form .heading ul li {
   width: 100%;
 }
+
 #contact-form .form input {
   width: 89%;
-  margin: 7px 9px;
+  /* margin: 7px 9px; */
   border-radius: 8px;
-  padding: 9px 3px 9px 5px;
-  border: 1px solid #cfd8dc;
-}
-#contact-form .form textarea {
-  width: 89%;
-  margin: 7px 6px;
-  border-radius: 8px;
-  padding: 5px 3px 5px 5px;
+  padding: 12px 3px 12px 7px;
   border: 1px solid #cfd8dc;
 }
 
-.submit {
-  width: 30%;
+input[type=text] {
+  margin-top: 10%;
+}
+
+input[type=email] {
+  margin-top: 4%;
+}
+
+#contact-form .form textarea {
+  width: 89%;
+  margin: 15px 6px;
   border-radius: 8px;
-  padding: 6px 5px 6px 5px;
+  padding: 12px 3px 5px 9px;
+  border: 1px solid #cfd8dc;
+  font-family: Poppins, sans-serif;
+}
+
+.submit {
+  width: 35%;
+  border-radius: 8px;
+  padding: 12px 0 12px 15px;
   color: #6070ff;
+  text-align: center;
   font-size: 17px;
+  margin-top: 7px;
+  background-color: #fff;
 }
 
 li button {
   display: flex;
-  margin-left: 9px;
+  margin-left: 20px;
   border: 1px solid #cfd8dc;
 }
 
