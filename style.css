@@ -588,7 +588,6 @@ body {
     height: 118px;
     display: inline-flex;
     flex-direction: row;
-    align-items: ba;
     padding-left: 6%;
     padding-top: 2%;
   }
@@ -1234,4 +1233,8 @@ body {
     margin-left: -7%;
     margin-top: 3%;
   }
+}
+
+li {
+  list-style-type: none;
 }
