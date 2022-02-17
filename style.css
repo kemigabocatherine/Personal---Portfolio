@@ -357,7 +357,7 @@ main {
   .language {
     padding-left: 6%;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 150%;
     color: #000;
     display: flex;
@@ -406,7 +406,7 @@ main {
     display: flex;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 150%;
     width: 50%;
     height: 24px;
