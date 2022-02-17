@@ -29,7 +29,7 @@ main {
   body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 
   .dmenu,
@@ -424,7 +424,7 @@ main {
 
   .drop {
     display: inline-flex;
-    margin-left: 50%;
+    margin-left: 40%;
   }
 
   hr {
@@ -570,7 +570,7 @@ main {
   body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 
   .menu,
