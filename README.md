@@ -20,7 +20,7 @@ This project contains information about me and my projects It shows the work I h
 
 ## Live demo
 
-[@Cathy's-Portfolio]( https://kemigabocatherine.github.io/Personal---Portfolio/)
+[Cathy's-Portfolio]( https://kemigabocatherine.github.io/Personal---Portfolio/)
 
 ## Author
 
