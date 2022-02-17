@@ -22,7 +22,9 @@ This project contains information about me and my projects It shows the work I h
 
 [@Cathy's-Portfolio]( https://kemigabocatherine.github.io/Personal---Portfolio/)
 
-## :bust_in_silhouette: Author
+## Author
+
+### :bust_in_silhouette: Kemigabo Catherine
 
 GitHub:[@githubhandle](https://github.com/kemigabocatherine)
 
