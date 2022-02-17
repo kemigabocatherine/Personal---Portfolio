@@ -13,6 +13,10 @@ body {
   height: auto;
 }
 
+main {
+  display: grid;
+}
+
 /* Mobile version */
 @media only screen and (max-width: 480px) {
   body {
@@ -606,7 +610,7 @@ body {
     width: 700%;
     display: flex;
     align-items: flex-end;
-    padding-left: 400%;
+    padding-left: 300%;
     padding-top: 3%;
     list-style-type: none;
   }
@@ -614,7 +618,7 @@ body {
   .port,
   .ab,
   .cont {
-    width: 15%;
+    width: 12%;
     font-family: "Poppins", sans-serif;
     color: #354664;
     font-weight: 500;
@@ -622,7 +626,7 @@ body {
 
   .ab,
   .cont {
-    padding-left: 0.5%;
+    padding-left: 0.3%;
   }
 
   .headline {
