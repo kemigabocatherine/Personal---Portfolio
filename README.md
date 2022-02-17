@@ -18,7 +18,13 @@ This project contains information about me and my projects It shows the work I h
 
 3 Open the  folder in your IDE and modify or use the content as desired.
 
-## Contact
+## Live demo
+
+[Cathy's-Portfolio]( https://kemigabocatherine.github.io/Personal---Portfolio/)
+
+## Author
+
+### :bust_in_silhouette: Kemigabo Catherine
 
 GitHub:[@githubhandle](https://github.com/kemigabocatherine)
 
