@@ -16,7 +16,7 @@ This project contains information about me and my projects It shows the work I h
 
 2 Clone this repository to your new folder on your local.
 
-3 Open the  folder in your IDE and modify or use the content as desired.
+3 Open the  folder in your IDE and modify or use the content as needed.
 
 ## Live demo
 
