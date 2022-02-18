@@ -23,6 +23,7 @@ main {
   animation-timing-function: ease-out;
   animation-duration: 4s;
 }
+
 @keyframes logo-anim {
   from {
     margin-left: -200%;
@@ -32,6 +33,7 @@ main {
     margin-left: 0%;
   }
 }
+
 /* Mobile version */
 @media only screen and (max-width: 480px) {
   body {
