@@ -17,6 +17,23 @@ main {
   display: grid;
 }
 
+.logo {
+  animation: logo-anim;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 4s;
+}
+
+@keyframes logo-anim {
+  from {
+    margin-left: -200%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
 /* Mobile version */
 @media only screen and (max-width: 480px) {
   body {
@@ -103,7 +120,7 @@ main {
   .connect1,
   .connect {
     width: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500.24;
     padding-left: 6%;
     padding-top: 3%;
@@ -188,7 +205,7 @@ main {
   .heading1,
   .heading2 {
     width: 85%;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 150%;
     line-height: 180%;
@@ -210,7 +227,7 @@ main {
   .canopy,
   .end1,
   .end {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 95%;
     color: #344563;
@@ -286,7 +303,7 @@ main {
   }
 
   .about {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 200%;
     line-height: 180%;
     font-weight: 700;
@@ -346,7 +363,7 @@ main {
     border-radius: 7px;
     background-color: #fff;
     color: #396df2;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 100%;
     padding: 3%;
     letter-spacing: 00.03em;
@@ -356,7 +373,7 @@ main {
 
   .language {
     padding-left: 6%;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-size: 150%;
     color: #000;
@@ -405,7 +422,7 @@ main {
   .skills {
     display: flex;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-size: 150%;
     width: 50%;
@@ -494,8 +511,8 @@ main {
     flex-direction: column;
   }
 
-  input[type=text],
-  input[type=email],
+  input[type="text"],
+  input[type="email"],
   textarea {
     width: 85%;
     height: 48px;
@@ -511,7 +528,7 @@ main {
     color: #172b4d;
   }
 
-  input[type=email],
+  input[type="email"],
   textarea {
     margin-top: 1%;
   }
@@ -527,7 +544,7 @@ main {
     padding: 2%;
     margin-left: 7%;
     border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: #fff;
     cursor: pointer;
     font-size: 110%;
@@ -663,7 +680,7 @@ main {
   .paragraph,
   .p,
   .par {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     line-height: 135%;
     width: 90%;
@@ -678,7 +695,7 @@ main {
   .connect {
     width: 100%;
     height: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 130%;
     font-weight: 500.24;
     line-height: 24px;
@@ -787,7 +804,7 @@ main {
   .heading3 {
     width: 80%;
     height: 80px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 160%;
     line-height: 44px;
@@ -808,7 +825,7 @@ main {
   .canopy,
   .end1,
   .end {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 100%;
     color: #344563;
@@ -882,7 +899,7 @@ main {
     border-radius: 7px;
     background-color: #fff;
     color: #396df2;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 120%;
     padding: 2%;
     letter-spacing: 00.03em;
@@ -933,7 +950,7 @@ main {
   }
 
   .about {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 170%;
     line-height: 52px;
     font-weight: 700;
@@ -948,7 +965,7 @@ main {
 
   .par {
     width: 160%;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 100%;
     line-height: 24px;
     font-weight: 400;
@@ -959,7 +976,7 @@ main {
   }
 
   .connect {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 120%;
     line-height: 24px;
     font-weight: 500;
@@ -1024,7 +1041,7 @@ main {
   }
 
   .language {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 130%;
     color: #000;
@@ -1089,7 +1106,7 @@ main {
   .skills {
     display: flex;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 120%;
     list-style-type: none;
@@ -1121,7 +1138,7 @@ main {
     background-image: url("images3/contact\ form\ background\ shapes@3x.svg");
     background-repeat: no-repeat;
     background-size: 99% 100%;
-    background-position: 99%  center;
+    background-position: 99% center;
   }
 
   .contact-heading {
@@ -1154,8 +1171,8 @@ main {
     flex-direction: column;
   }
 
-  input[type=text],
-  input[type=email],
+  input[type="text"],
+  input[type="email"],
   textarea {
     width: 50%;
     height: 48px;
@@ -1171,12 +1188,12 @@ main {
     color: #172b4d;
   }
 
-  input[type=email],
+  input[type="email"],
   textarea {
     margin-top: 1%;
   }
 
-  input[type=text] {
+  input[type="text"] {
     margin-top: 10%;
   }
 
@@ -1193,7 +1210,7 @@ main {
     margin-left: 41%;
     margin-top: 1%;
     border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: #fff;
     font-size: 120%;
     font-weight: 500;
