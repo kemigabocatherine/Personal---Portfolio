@@ -39,7 +39,7 @@ main {
   body {
     margin: 0;
     background-color: #f7f7f9;
-    size: fit-content;
+    block-size: fit-content;
   }
 
   html,
@@ -60,7 +60,7 @@ main {
   .home {
     background-color: #fff;
     width: 100%;
-    size: fit-content;
+    block-size: fit-content;
     border-bottom-left-radius: 10%;
   }
 
@@ -298,7 +298,7 @@ main {
     background-color: #fff;
     border-top-right-radius: 90px;
     margin-top: 120px;
-    size: fit-content;
+    block-size: fit-content;
   }
 
   .about {
@@ -474,7 +474,7 @@ main {
 
   .Contact {
     width: 100%;
-    size: fit-content;
+    block-size: fit-content;
     background-color: #6070ff;
     margin-top: -13%;
     border-top-left-radius: 12%;
