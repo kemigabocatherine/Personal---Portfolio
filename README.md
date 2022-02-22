@@ -30,6 +30,6 @@ GitHub:[@githubhandle](https://github.com/kemigabocatherine)
 
 Twitter: [@twitterhandle](https://twitter.com/catherinek205)
 
-## Show your support
+## Show your suppoprt
 
 Give a :star: or a :+1: if you like this project!
