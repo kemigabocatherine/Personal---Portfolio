@@ -75,6 +75,39 @@ main {
     margin-top: -50px;
   }
 
+  /* Mobile Menu */
+  #mobile-menu {
+    background-color: #6070ffe7;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 8%;
+  }
+
+  #menu-exit {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 42px;
+    align-self: flex-end;    
+  }
+
+  .menu-link {
+    margin-bottom: 20px;
+  }
+
+  .menu-link a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
   .headline {
     background: url("images3/header-shapes\ mobile@2x.svg") no-repeat;
     max-width: 100%;
