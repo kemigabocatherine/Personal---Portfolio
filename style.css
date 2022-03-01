@@ -85,6 +85,8 @@ main {
     display: flex;
     flex-direction: column;
     padding: 8%;
+    transition: 0.5s;
+    transform: translateX(-100%);
   }
 
   #menu-exit {
@@ -107,6 +109,10 @@ main {
     color: #FFFFFF;
     text-decoration: none;
   }
+
+  /* #mobile-menu {
+    display: none;
+  } */
 
   .headline {
     background: url("images3/header-shapes\ mobile@2x.svg") no-repeat;
