@@ -31,16 +31,16 @@
             <img class="logo" src="images/LogoPlaceholder.png" alt="My Logo"/>
           </a>
           <nav>
-            <img class="menu" src="images/hamburger.png" alt="menu"/>
+            <img class="menu" id = "menu" src="images/hamburger.png" alt="menu"/>
             <ul class="dmenu">
               <li class="port"><a href="#home">Portfolio</a></li>
               <li class="ab"><a href="#about">About</a></li>
               <li class="cont"><a href="#contact">Contact</a></li>
             </ul>
-
+            <!--Mobile-menu-->
             <div id="mobile-menu">
-              <a href="#" id="menu-exit">&times;</a>
-              <ul id="menu">
+              <a id="menu-exit">&times;</a>
+              <ul id="menu-items">
                 <li class="menu-link" id="port"><a href="#home">Portfolio</a>
                 </li>
                 <li class="menu-link" id="ab"><a href="#about">About</a>
@@ -114,8 +114,8 @@
             <p class="p">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <div>
               <ul class="butto tonic">
-                <li class="ht">
-                  html
+                <li>
+                  <button class="ht">html</button>
                 </li>
                 <li>
                   <button type="button" class="ssc">css</button>
@@ -335,5 +335,6 @@
         </form>
       </section>
     </main>
+     <script src="menu.js"></script>
   </body>
 </html>
