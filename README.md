@@ -8,6 +8,8 @@ This project contains information about me and my projects It shows the work I h
 
 * CSS
 
+* Javascript
+
 ## Getting Started
 
 **To get this project up and running in your local environment;**
@@ -26,9 +28,15 @@ This project contains information about me and my projects It shows the work I h
 
 ### :bust_in_silhouette: Kemigabo Catherine
 
-GitHub:[@githubhandle](https://github.com/kemigabocatherine)
+GitHub:[@github](https://github.com/kemigabocatherine)
 
-Twitter: [@twitterhandle](https://twitter.com/catherinek205)
+Twitter: [@twitter](https://twitter.com/catherinek205)
+
+## :bust_in_silhouette: Contributors
+
+[Tadesse Alemayehu](https://github.com/Tadesse-Alemayehu)
+
+[Jordan A](https://github.com/Jord4N-AC)
 
 ## Show your suppoprt
 
