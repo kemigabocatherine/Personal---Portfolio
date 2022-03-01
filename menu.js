@@ -14,6 +14,6 @@ function exitMenu() {
 
 menuIcon.addEventListener('click', displayMenu);
 closeMenu.addEventListener('click', exitMenu);
-menuLinks.forEach(link => {
+menuLinks.forEach((link) => {
   link.addEventListener('click', exitMenu);
-})
+});

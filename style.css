@@ -50,7 +50,7 @@ main {
   }
 
   .dmenu,
-  .sn ap1,
+  .snap1,
   .snap2,
   .heading3,
   .heading4 {
@@ -93,7 +93,8 @@ main {
     text-decoration: none;
     color: #fff;
     font-size: 42px;
-    align-self: flex-end;   
+    align-self: flex-end;
+
   }
 
   #menu-exit:hover {
