@@ -96,6 +96,10 @@ main {
     align-self: flex-end;    
   }
 
+  #menu-exit:hover {
+    cursor: pointer;
+  }
+
   .menu-link {
     margin-bottom: 20px;
   }
