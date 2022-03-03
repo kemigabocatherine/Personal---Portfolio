@@ -34,6 +34,51 @@ main {
   }
 }
 
+/* Project details */
+.project_details {
+  width: 85%;
+  padding: 4%;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+  visibility: hidden;
+}
+
+.detail-image {
+  width: 96%;
+  height: 50%;
+  padding: 0;
+  border-radius: 8px;
+  margin: 1%;
+}
+
+.detail-heading {
+  width: 85%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 300%;
+  line-height: 180%;
+  color: #172b4d;
+  text-align: left;
+  padding-left: 2%;
+}
+
+#popup-close:hover {
+  cursor: pointer;
+}
+
+.showpopup {
+  visibility: visible;
+  opacity: 1;
+}
+
+.blur {
+  filter: blur(8px);
+}
+
 /* Mobile version */
 @media only screen and (max-width: 992px) {
   body {
@@ -47,6 +92,37 @@ main {
     margin: 0;
     padding: 0;
     overflow-x: hidden !important;
+  }
+
+  .detail {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 200%;
+    padding-left: 3%;
+    padding-right: 7%;
+    color: #344563;
+  }
+
+  .live,
+  .Source {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    width: 35%;
+    height: 48px;
+    margin-top: 2%;
+    margin-left: 2%;
+    color: #396df2;
+    background-color: #fff;
+    font-size: 110%;
+  }
+
+  #popup-close {
+    font-size: 40px;
+    float: right;
+    margin-top: -17%;
+    color: #67798e;
   }
 
   .dmenu,
@@ -628,6 +704,51 @@ main {
     margin: 0;
     padding: 0;
     overflow-x: hidden !important;
+  }
+
+  .detail-heading {
+    padding-bottom: 3%;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .detail {
+    font-family: "Poppins", sans-serif;
+    width: 96%;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 200%;
+    padding-left: 3%;
+    padding-right: 7%;
+    color: #344563;
+  }
+
+  #buttons {  
+    margin-right: 55px;
+  }
+
+  .live,
+  .Source {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    height: 34px;
+    margin-top: 2%;
+    width: 56%;
+    color: #396df2;
+    background-color: #fff;
+    font-size: 91%;
+    padding-left: 2% 3% 2% 2%;
+  }
+
+  #popup-close {
+    font-size: 40px;
+    float: right;
+    margin-top: -10%;
+    color: #67798e;
   }
 
   .menu,
