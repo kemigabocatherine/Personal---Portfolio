@@ -770,7 +770,7 @@ main {
 
   .description {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
   }
 
   .detail {
@@ -784,7 +784,7 @@ main {
 
   #buttons {
     display: flex;
-    width: 30%;  
+    width: 30%;
     margin-right: 52px;
   }
 
