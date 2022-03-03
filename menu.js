@@ -18,7 +18,7 @@ menuLinks.forEach((link) => {
   link.addEventListener('click', exitMenu);
 });
 
-//POPUP WINDOW
+// POPUP WINDOW
 const projects = [
   {
     /* Has id=0 in HTML because this is the first element in this array with index 0 */
@@ -60,7 +60,7 @@ const projects = [
 
 const seenProject = document.querySelectorAll('.pro1');
 const main = document.querySelector('.main');
-seenProject.forEach(button => {
+seenProject.forEach((button) => {
   button.addEventListener('click', () => {
     const buttonId = button.getAttribute('id');
     const projectDetails = document.querySelector('.project_details');
@@ -78,16 +78,13 @@ seenProject.forEach(button => {
     githubImage.src = projects[buttonId].imageGit;
     liveImage.src = projects[buttonId].imageLive;
 
-    let closePopup = projectDetails.querySelector('[data-close-button]'); 
-
+    const closePopup = projectDetails.querySelector('[data-close-button]');
     closePopup.addEventListener('click', () => {
       projectDetails.classList.remove('showpopup');
       main.classList.remove('blur');
-    });  
-  })
-})
-
-
+    });
+  });
+});
 
 
 
