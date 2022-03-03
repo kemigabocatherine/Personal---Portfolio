@@ -85,9 +85,3 @@ seenProject.forEach((button) => {
     });
   });
 });
-
-
-
-
-
-
