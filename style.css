@@ -146,7 +146,7 @@ main {
     transform: scale(1.3);
     color: #00d9ff;
   }
- 
+
   #popup-close:active {
     color: #67798e;
   }
@@ -755,13 +755,8 @@ main {
     transition: all 0.4s;
   }
 
-   .project_details:hover {
-     box-shadow: 0 0 10px #172b4d;
-   }
-
-  .showpopup {
-    visibility: visible;
-    opacity: 1;
+  .project_details:hover {
+    box-shadow: 0 0 10px #172b4d;
   }
 
   .showpopup {
