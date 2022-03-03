@@ -23,7 +23,7 @@
     />
   </head>
   <body>
-    <main>
+    <main class="main">
       <!--Introduction-->
       <section class="home" id="home">
         <header class="toolbar">
@@ -125,7 +125,7 @@
                 </li>
               </ul>
             </div>
-            <button type="button" class="pro1 pro">See Project</button>
+            <button type="button" class="pro1 pro" id="0">See Project</button>
           </div>
         </div>
 
@@ -162,7 +162,7 @@
                 </li>
               </ul>
             </div>
-            <button type="button" class="pro1">See Project</button>
+            <button type="button" class="pro1" id="1">See Project</button>
           </div>
           <div class="right-image">
             <img class="snap2" src="images3/desktop-project2.png" alt="desktop2">
@@ -197,7 +197,7 @@
                         <li><button type="button" class="sj">javaScript</button></li>
               </ul>
             </div>
-            <button type="button" class="pro1 pro3">See Project</button>
+            <button type="button" class="pro1 pro3" id="2">See Project</button>
           </div>
         </div>
 
@@ -234,7 +234,7 @@
                 </li>
               </ul>
             </div>
-            <button type="button" class="pro1">See Project</button>
+            <button type="button" class="pro1" id="3">See Project</button>
           </div>
           <div class="right-image">
             <img class="snap2" src="images3/desktop-project4.png" alt="desktop2">
@@ -335,6 +335,54 @@
         </form>
       </section>
     </main>
-     <script src="menu.js"></script>
+
+    <!--Project details-->
+    <section class="project_details">
+      <div>
+        <h1 class="detail-heading"></h1>
+        <a id="popup-close" class="close-popup">&times;</a>
+      </div>
+      <div>
+        <ul class="list">
+          <li class="canopy">CANOPY</li>
+          <li class="end1">Back End Dev</li>
+          <li class="end">2015</li>
+        </ul> 
+      </div>
+      <img class="detail-image" src="" alt="Snapshoot">
+      <div class="description">
+        <div>
+          <p class="detail">
+          </p>
+        </div>
+        <div id="buttons">
+          <div>
+            <ul class="butto multi" id="technologies">
+              <li>
+                <button type="button" class="ht">html</button>
+              </li>
+              <li>
+                <button type="button" class="ssc">css</button>
+              </li>
+              <li>
+                <button type="button" class="sj">javaScript</button>
+              </li>
+            </ul>
+          </div>
+          <div>
+            </div>
+          <button type="button" class=" live">
+            See live  
+            <img src="" class=".liveimage" alt="live-display">
+          </button>
+          <button type="button" class="Source">
+            See Source
+            <img src="" class=".github" alt="Source">
+          </button>     
+        </div>
+          
+      </div>
+    </section>
+    <script src="menu.js"></script>
   </body>
 </html>
