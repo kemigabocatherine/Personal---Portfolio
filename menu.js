@@ -69,7 +69,7 @@ seenProject.forEach(button => {
     const heading = projectDetails.querySelector('.detail-heading');
     const paragrah = projectDetails.querySelector('.detail');
     const image = projectDetails.querySelector('.detail-image');
-    const githubImage = projectDetails.querySelector('.github');
+    const githubImage = projectDetails.querySelector('.sourceimage');
     const liveImage = projectDetails.querySelector('.liveimage');
 
     heading.innerHTML = projects[buttonId].name;
@@ -78,14 +78,19 @@ seenProject.forEach(button => {
     githubImage.src = projects[buttonId].imageGit;
     liveImage.src = projects[buttonId].imageLive;
 
-    const closePopup = projectDetails.querySelector('.close-popup');
+    let closePopup = projectDetails.querySelector('[data-close-button]'); 
 
     closePopup.addEventListener('click', () => {
       projectDetails.classList.remove('showpopup');
       main.classList.remove('blur');
     });  
   })
-  
 })
+
+
+
+
+
+
 
 
