@@ -752,7 +752,12 @@ main {
     border-radius: 3%;
     padding: 2% 2% 2% 2%;
     overflow-y: auto;
+    transition: all 0.4s;
   }
+
+   .project_details:hover {
+     box-shadow: 0 0 10px #172b4d;
+   }
 
   .showpopup {
     visibility: visible;
