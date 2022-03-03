@@ -139,6 +139,16 @@ main {
     float: right;
     margin-top: -17%;
     color: #67798e;
+    transition: all 0.2s;
+  }
+
+  #popup-close:hover {
+    transform: scale(1.3);
+    color: #00d9ff;
+  }
+ 
+  #popup-close:active {
+    color: #67798e;
   }
 
   .dmenu,
