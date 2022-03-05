@@ -323,11 +323,11 @@
             </li>
             <li><br></li>
             <li class="email2">
-              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+              <input type="email" onchange = "setChange()" id="email" name="email" placeholder="Enter your email" required>
             </li>
             <li><br></li>
             <li class="message">
-              <textarea name="message" placeholder="Write your message here" minlength="10" maxlength="500" required></textarea>
+              <textarea id="Message" name="message" onchange = "setChange()" placeholder="Write your message here" minlength="10" maxlength="500" required></textarea>
             </li>
             <li><br></li>
           </ul>

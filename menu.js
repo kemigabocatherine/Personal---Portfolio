@@ -143,3 +143,31 @@ function displayMessage() {
 }
 
 displayMessage();
+
+// LOCAL STORAGE
+const personName = document.getElementById('name');
+const personEmail = document.getElementById('email');
+const personMessage = document.getElementById('Message');
+
+function setChange() {
+  const formInfo = {
+    name: personName.value,
+    email: personEmail.value,
+    message: personMessage.value,
+  };
+  localStorage.setItem('form', JSON.stringify(formInfo));
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const formValue = localStorage.getItem('form');
+  if (formValue) {
+    const formObject = JSON.parse(formValue);
+    personName.value = formObject.name;
+    personEmail.value = formObject.email;
+    personMessage.value = formObject.message;
+  }
+});
+
+personName.onchange = setChange;
+personEmail.onchange = setChange;
+personMessage.onchange = setChange;
