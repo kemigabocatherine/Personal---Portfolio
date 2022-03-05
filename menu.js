@@ -136,7 +136,6 @@ function displayMessage() {
     if (email.value.toLowerCase() !== email.value) {
       validateMessage.textContent = 'e-mail should be in LOWER CASE, Form NOT submitted';
       validateMessage.classList.add('show');
-    
     } else {
       form.submit();
     }
