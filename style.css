@@ -817,7 +817,7 @@ main {
     border: 1px solid #6070ff;
     border-radius: 8px;
     width: 65%;
-    height: 48px;
+    height: 40px;
     margin-top: 29%;
     color: #396df2;
     background-color: #fff;
@@ -841,7 +841,7 @@ main {
     float: right;
     margin-top: -10%;
     color: #67798e;
-    padding-right: 2%;
+    padding-right: 3%;
   }
 
   .menu,
