@@ -61,11 +61,6 @@ main {
 }
 
 /* Email Validation */
-.sg-btn-container {
-  display: flex;
-  flex-direction: column;
-}
-
 form .show {
   display: inline-block;
   font-size: medium;
