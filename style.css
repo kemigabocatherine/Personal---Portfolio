@@ -96,7 +96,7 @@ main {
     padding-top: 15%;
     padding-bottom: 16%;
     padding-left: 2%;
-    padding-right: 1%;  
+    padding-right: 1%;
   }
 
   .showpopup {
@@ -777,7 +777,7 @@ main {
 
   .detail-header {
     margin-bottom: 1%;
-  } 
+  }
 
   .description {
     display: flex;
@@ -795,7 +795,7 @@ main {
   }
 
   .detail-image {
-    width: 93%; 
+    width: 93%;
     height: 99%;
     border-radius: 8px;
     margin: 1%;

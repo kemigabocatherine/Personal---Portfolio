@@ -58,7 +58,7 @@ const projects = [
   },
 ];
 
-function showModal(){
+function showModal() {
   const projectDetails = document.querySelector('.project_details');
   const seenProject = document.querySelectorAll('.pro1');
   const main = document.querySelector('.main');
@@ -68,8 +68,7 @@ function showModal(){
       projectDetails.classList.add('showpopup');
       main.classList.add('blur');
 
-      const detailContent = 
-        `<div class="detail-header">
+      const detailContent = `<div class="detail-header">
             <h1 class="detail-heading">${projects[buttonId].name}</h1>
             <a id="popup-close" data-close-button class="close-button-project" >&times;</a>
           </div>
@@ -111,17 +110,17 @@ function showModal(){
               </button>     
             </div>    
           </div>
-        `
+        `;
       projectDetails.innerHTML = detailContent;
       const closePopup = projectDetails.querySelector('[data-close-button]');
       closePopup.addEventListener('click', () => {
-      projectDetails.classList.remove('showpopup');
-      main.classList.remove('blur');
-      })
-    })
-  })
+        projectDetails.classList.remove('showpopup');
+        main.classList.remove('blur');
+      });
+    });
+  });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
   showModal();
-}); 
+});
