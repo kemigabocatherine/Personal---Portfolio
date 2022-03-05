@@ -60,6 +60,30 @@ main {
   filter: blur(8px);
 }
 
+/* Email Validation */
+.sg-btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+form .show {
+  display: inline-block;
+  font-size: medium;
+  text-shadow: 0 0 5px #253858;
+  background-color: #2f65c3af;
+  color: rgb(60, 255, 0);
+  max-width: max-content;
+  border: 3px solid #aebad3;
+  box-shadow: 0 0 14px #52dfd8;
+  border-radius: 5px;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 20px;
+  padding: 10px;
+  z-index: 2;
+  transition: all 0.45s;
+}
+
 /* Mobile version */
 @media only screen and (max-width: 992px) {
   body {
@@ -1509,6 +1533,12 @@ main {
   .p {
     margin-left: -7%;
     margin-top: 3%;
+  }
+
+  /* Form Validation */
+  form small {
+    margin-left: 25%;
+    margin-right: 25%;
   }
 }
 

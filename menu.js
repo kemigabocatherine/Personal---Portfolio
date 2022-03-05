@@ -124,3 +124,7 @@ function showModal() {
 document.addEventListener('DOMContentLoaded', () => {
   showModal();
 });
+
+// Form Validation
+
+// E-mail should be in LOWER CASE, Form NOT submitted
