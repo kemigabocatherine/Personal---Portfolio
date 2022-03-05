@@ -75,6 +75,25 @@ main {
     overflow-x: hidden !important;
   }
 
+  /* Email Validation */
+  .show {
+    display: inline-block;
+    font-size: medium;
+    text-shadow: 0 0 5px #253858;
+    background-color: #2f65c3af;
+    color: rgb(60, 255, 0);
+    max-width: max-content;
+    border: 3px solid #aebad3;
+    box-shadow: 0 0 14px #52dfd8;
+    border-radius: 5px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 20px;
+    padding: 10px;
+    z-index: 2;
+    transition: all 0.45s;
+  }
+
   .project_details {
     position: fixed;
     top: 0;
@@ -740,6 +759,26 @@ main {
     margin: 0;
     padding: 0;
     overflow-x: hidden !important;
+  }
+
+  /* Email Validation */
+  .show {
+    display: inline-block;
+    font-size: medium;
+    text-shadow: 0 0 5px #253858;
+    background-color: #2f65c3af;
+    color: rgb(60, 255, 0);
+    max-width: max-content;
+    border: 3px solid #aebad3;
+    box-shadow: 0 0 14px #52dfd8;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-right: 7%;
+    margin-bottom: 20px;
+    margin-top: -29%;
+    padding: 10px;
+    z-index: 2;
+    transition: all 0.45s;
   }
 
   .project_details {
@@ -1478,7 +1517,7 @@ main {
     height: 48px;
     padding-top: 1.5%;
     padding-bottom: 4%;
-    margin-left: 41%;
+    margin-left: -6%;
     margin-top: 1%;
     border-radius: 8px;
     font-family: "Poppins", sans-serif;
@@ -1525,6 +1564,12 @@ main {
   .p {
     margin-left: -7%;
     margin-top: 3%;
+  }
+
+  /* Form Validation */
+  small {
+    margin-left: 25%;
+    margin-right: 25%;
   }
 
   li {

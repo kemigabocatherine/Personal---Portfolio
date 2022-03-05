@@ -124,3 +124,22 @@ function showModal() {
 document.addEventListener('DOMContentLoaded', () => {
   showModal();
 });
+
+// Form Validation
+const form = document.forms[0];
+const { email } = form.elements;
+const validateMessage = document.querySelector('small');
+
+function displayMessage() {
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (email.value.toLowerCase() !== email.value) {
+      validateMessage.textContent = 'e-mail should be in LOWER CASE, Form NOT submitted';
+      validateMessage.classList.add('show');
+    } else {
+      form.submit();
+    }
+  });
+}
+
+displayMessage();
