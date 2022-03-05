@@ -127,16 +127,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Form Validation
 const form = document.forms[0];
-const { emailInput } = form.elements;
-console.log(emailInput);
-const formMessage = document.querySelector('small');
+const { email } = form.elements;
+const validateMessage = document.querySelector('small');
 
 function displayMessage() {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
-    if (emailInput.value.toLowerCase() !== emailInput.value) {
-      formMessage.textContent = 'E-mail should be in LOWER CASE, Form NOT submitted';
-      formMessage.classList.add('show');
+    if (email.value.toLowerCase() !== email.value) {
+      validateMessage.textContent = 'e-mail should be in LOWER CASE, Form NOT submitted';
+      validateMessage.classList.add('show');
+    
     } else {
       form.submit();
     }
