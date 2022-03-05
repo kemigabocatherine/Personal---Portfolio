@@ -93,7 +93,6 @@ main {
     opacity: 0;
     border: 1px solid #dfe1e6;
     border-radius: 3%;
-    /*padding: 8% 2% 8% 2%;*/
     padding-top: 15%;
     padding-bottom: 16%;
     padding-left: 2%;
@@ -754,7 +753,7 @@ main {
     opacity: 0;
     border: 1px solid #dfe1e6;
     border-radius: 3%;
-    padding-top: 12%;
+    padding-top: 12.7%;
     padding-bottom: 15%;
     padding-left: 2%;
     padding-right: 0;
@@ -804,8 +803,8 @@ main {
 
   #buttons {
     display: flex;
-    width: 30%;
-    margin-right: 52px;
+    width: 32%;
+    margin-right: 9%;
   }
 
   .live {
@@ -819,7 +818,7 @@ main {
     border-radius: 8px;
     width: 65%;
     height: 48px;
-    margin-top: 26%;
+    margin-top: 29%;
     color: #396df2;
     background-color: #fff;
     font-size: 80%;
@@ -827,7 +826,7 @@ main {
 
   .Source {
     margin-left: -22%;
-    margin-right: -4%;
+    margin-right: -9%;
     width: 73%;
   }
 
