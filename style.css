@@ -34,6 +34,32 @@ main {
   }
 }
 
+.detail-image {
+  width: 96%;
+  height: 50%;
+  padding: 0;
+  border-radius: 8px;
+  margin: 1%;
+}
+
+.detail-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 200%;
+  color: #172b4d;
+  text-align: left;
+  padding-left: 2%;
+}
+
+#popup-close:hover {
+  cursor: pointer;
+}
+
+.blur {
+  position: fixed;
+  filter: blur(8px);
+}
+
 /* Mobile version */
 @media only screen and (max-width: 992px) {
   body {
@@ -47,6 +73,92 @@ main {
     margin: 0;
     padding: 0;
     overflow-x: hidden !important;
+  }
+
+  .project_details {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    border: 1px solid #dfe1e6;
+    border-radius: 3%;
+    padding-top: 16%;
+    padding-bottom: 19%;
+    padding-left: 2%;
+    padding-right: 1%;
+  }
+
+  .showpopup {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .detail {
+    font-family: "Poppins", sans-serif;
+    width: 99%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    padding-left: 3%;
+    padding-right: 7%;
+    color: #344563;
+  }
+
+  .detail-list {
+    margin-top: -4%;
+  }
+
+  .live,
+  .Source {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    width: 45%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 40px;
+    margin-top: 5%;
+    margin-left: 2%;
+    color: #396df2;
+    background-color: #fff;
+    font-size: 110%;
+    margin-bottom: 9%;
+  }
+
+  .detail-header {
+    margin-top: 8%;
+  }
+
+  #technologies {
+    border-bottom: 1px solid #e5e5e5;
+    margin-right: 8%;
+  }
+
+  #popup-close {
+    font-size: 200%;
+    float: right;
+    margin-top: -10%;
+    color: #67798e;
+    transition: all 0.2s;
+  }
+
+  #popup-close:hover {
+    transform: scale(1.3);
+    color: #00d9ff;
+  }
+
+  #popup-close:active {
+    color: #67798e;
   }
 
   .dmenu,
@@ -628,6 +740,124 @@ main {
     margin: 0;
     padding: 0;
     overflow-x: hidden !important;
+  }
+
+  .project_details {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 58%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    border: 1px solid #dfe1e6;
+    border-radius: 3%;
+    padding-top: 12.7%;
+    padding-bottom: 15%;
+    padding-left: 2%;
+    padding-right: 0;
+    margin: auto;
+    transition: all 0.4s;
+  }
+
+  .project_details:hover {
+    box-shadow: 0 0 10px #172b4d;
+  }
+
+  .showpopup {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .detail-heading {
+    padding-bottom: 3%;
+    margin-left: -1%;
+  }
+
+  .detail-header {
+    margin-bottom: 1%;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .detail {
+    font-family: "Poppins", sans-serif;
+    width: 98%;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 200%;
+    color: #344563;
+    margin-left: 1%;
+  }
+
+  .detail-image {
+    width: 93%;
+    height: 99%;
+    border-radius: 8px;
+    margin: 1%;
+  }
+
+  #buttons {
+    display: flex;
+    width: 32%;
+    margin-right: 9%;
+  }
+
+  .live {
+    margin-left: -79%;
+    margin-right: 23%;
+  }
+
+  .live,
+  .Source {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    width: 65%;
+    height: 40px;
+    margin-top: 29%;
+    color: #396df2;
+    background-color: #fff;
+    font-size: 80%;
+  }
+
+  .Source {
+    margin-left: -22%;
+    margin-right: -9%;
+    width: 73%;
+  }
+
+  #technologies {
+    margin-left: 10%;
+    border-bottom: 1px solid #e5e5e5;
+    margin-right: -39%;
+  }
+
+  #popup-close {
+    font-size: 40px;
+    float: right;
+    margin-top: -10%;
+    color: #67798e;
+    padding-right: 3%;
+    transition: all 0.2s;
+  }
+
+  #popup-close:hover {
+    transform: scale(1.3);
+    color: #00d9ff;
+  }
+
+  #popup-close:active {
+    color: #67798e;
   }
 
   .menu,
@@ -1296,8 +1526,8 @@ main {
     margin-left: -7%;
     margin-top: 3%;
   }
-}
 
-li {
-  list-style-type: none;
+  li {
+    list-style-type: none;
+  }
 }
