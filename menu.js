@@ -24,7 +24,7 @@ const projects = [
     /* Has id=0 in HTML because this is the first element in this array with index 0 */
     name: 'Tonic',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    image: 'images2/SnapshootPortfolio.png',
+    image: 'images3/project-image.png',
     imageGit: 'images/popup.png',
     imageLive: 'images/Icon.png',
 
@@ -102,11 +102,11 @@ function showModal() {
               </div>
               <button type="button" class=" live">
                 See live  
-                <img src="${projects[buttonId].imageLive}" class="liveimage" alt="live-display">
+                <a href="https://kemigabocatherine.github.io/Capstone-1/"><img src="${projects[buttonId].imageLive}" class="liveimage" alt="live-display"></a>
               </button>
               <button type="button" class="Source">
                 See Source
-                <img src="${projects[buttonId].imageGit}" class="sourceimage" alt="Source">
+                <a href="https://github.com/kemigabocatherine/Capstone-1"><img src="${projects[buttonId].imageGit}" class="sourceimage" alt="Source"></a>
               </button>     
             </div>    
           </div>
