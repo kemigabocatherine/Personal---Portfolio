@@ -22,7 +22,7 @@ menuLinks.forEach((link) => {
 const projects = [
   {
     /* Has id=0 in HTML because this is the first element in this array with index 0 */
-    name: 'Tonic',
+    name: 'SCOL',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     image: 'images3/project-image.png',
     imageGit: 'images/popup.png',
@@ -31,27 +31,27 @@ const projects = [
   },
   {
     /* Has id=1 in HTML because this is the first element in this array with index 1 */
-    name: 'Multi-Post Stories',
+    name: 'Micro TV',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    image: 'images2/SnapshootPortfolio(1).png',
+    image: 'images2/screenshot1.png',
     imageGit: 'images/popup.png',
     imageLive: 'images/Icon.png',
 
   },
   {
     /* Has id=2 in HTML because this is the first element in this array with index 2 */
-    name: 'Tonic',
+    name: 'Budget App',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    image: 'images2/SnapshootPortfolio(2).png',
+    image: 'images2/screenshot2.png',
     imageGit: 'images/popup.png',
     imageLive: 'images/Icon.png',
 
   },
   {
     /* Has id=3 in HTML because this is the first element in this array with index 3 */
-    name: 'Multi-Post Stories',
+    name: 'Trekker',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    image: 'images2/SnapshootPortfolio(3).png',
+    image: 'images2/screenshot3.png',
     imageGit: 'images/popup.png',
     imageLive: 'images/Icon.png',
 
