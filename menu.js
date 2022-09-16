@@ -24,37 +24,49 @@ const projects = [
     /* Has id=0 in HTML because this is the first element in this array with index 0 */
     name: 'SCOL',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    lang: 'html',
+    lang1: 'css',
+    lang2: 'javascript',
     image: 'images3/project-image.png',
     imageGit: 'images/popup.png',
     imageLive: 'images/Icon.png',
-
+    showLive: 'https://kemigabocatherine.github.io/Capstone-1/',
   },
   {
     /* Has id=1 in HTML because this is the first element in this array with index 1 */
     name: 'Micro TV',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    lang: 'Webpack',
+    lang1: 'SCSS',
+    lang2: 'Javascript',
     image: 'images2/screenshot1.png',
     imageGit: 'images/popup.png',
     imageLive: 'images/Icon.png',
-
+    showLive: 'https://dewslyse.github.io/JS-capstone/',
   },
   {
     /* Has id=2 in HTML because this is the first element in this array with index 2 */
     name: 'Budget App',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    lang: 'Ruby',
+    lang1: 'Rails',
+    lang2: 'Postgresql',
     image: 'images2/screenshot2.png',
     imageGit: 'images/popup.png',
     imageLive: 'images/Icon.png',
-
+    showLive: 'https://rocky-ravine-77113.herokuapp.com/',
   },
   {
     /* Has id=3 in HTML because this is the first element in this array with index 3 */
     name: 'Trekker',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    lang: 'React',
+    lang1: 'Rails',
+    lang2: 'SCSS',
     image: 'images2/screenshot3.png',
     imageGit: 'images/popup.png',
     imageLive: 'images/Icon.png',
-
+    showLive: 'https://mv-trekker.netlify.app/',
   },
 ];
 
@@ -74,9 +86,9 @@ function showModal() {
           </div>
           <div class="detail-list">
             <ul class="list">
-              <li class="canopy">CANOPY</li>
-              <li class="end1">Back End Dev</li>
-              <li class="end">2015</li>
+              <li class="canopy">MICROVERSE</li>
+              <li class="end1">Full Stack Dev</li>
+              <li class="end">2022</li>
             </ul> 
           </div>
           <img class="detail-image" src="${projects[buttonId].image}" alt="Snapshoot">
@@ -90,19 +102,19 @@ function showModal() {
               <div>
                 <ul class="butto multi" id="technologies">
                   <li>
-                    <button type="button" class="ht">html</button>
+                    <button type="button" class="ht">${projects[buttonId].lang}</button>
                   </li>
                   <li>
-                    <button type="button" class="ssc">css</button>
+                    <button type="button" class="ssc">${projects[buttonId].lang1}</button>
                   </li>
                   <li>
-                    <button type="button" class="sj">javaScript</button>
+                    <button type="button" class="sj">${projects[buttonId].lang2}</button>
                   </li>
                 </ul>
               </div>
               <button type="button" class=" live">
                 See live  
-                <a href="https://kemigabocatherine.github.io/Capstone-1/"><img src="${projects[buttonId].imageLive}" class="liveimage" alt="live-display"></a>
+                <a href="${projects[buttonId].showLive}"><img src="${projects[buttonId].imageLive}" class="liveimage" alt="live-display"></a>
               </button>
               <button type="button" class="Source">
                 See Source

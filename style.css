@@ -60,6 +60,10 @@ main {
   filter: blur(8px);
 }
 
+.project {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 25%);
+}
+
 /* Mobile version */
 @media only screen and (max-width: 992px) {
   body {
@@ -348,6 +352,7 @@ main {
     background-color: #fff;
     width: 90%;
     margin-left: 5%;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 25%);
   }
 
   .project1,
@@ -840,8 +845,8 @@ main {
   }
 
   .detail-image {
-    width: 93%;
-    height: 99%;
+    width: 95%;
+    height: 100%;
     border-radius: 8px;
     margin: 1%;
   }
